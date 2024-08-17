@@ -94,7 +94,6 @@ async function run() {
       }
     });
 
-    // Get product details by ID
     app.get("/productDetails/:_id", async (req, res) => {
       try {
         const { _id } = req.params;
