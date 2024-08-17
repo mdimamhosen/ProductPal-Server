@@ -31,7 +31,6 @@ const client = new MongoClient(uri, {
 
 async function run() {
   try {
-    // Connect the client to the server
     // await client.connect();
     // Access the database and collections
     const database = client.db("productpal");
