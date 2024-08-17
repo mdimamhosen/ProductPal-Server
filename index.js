@@ -5,7 +5,6 @@ const cors = require("cors");
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const port = process.env.PORT || 3002;
 
-// Set CORS options
 const corsOptions = {
   origin: [
     "http://localhost:3000",
